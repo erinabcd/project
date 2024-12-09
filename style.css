@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+link {
+    display: none;
+}
+.nav {
+    color: whitesmoke;
+    background-color: #333;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav a {
+    color: whitesmoke;
+}
+.nav li {
+    padding: 5px;
+}
+.nav a:hover {
+    color: #2089F3;
+}
+.data-list{
+    margin-left: 40%;
+}
+.data-list li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.fa-chevron-down{ 
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.destinasi:hover .fa-chevron-down{
+    transform: rotate(-180deg);
+}
+.list1 {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.list1 li {
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.data-list a{
+    text-decoration: none;
+    text-align: center;
+}
+.destinasi:hover .list1 {
+    display: block;
+}
+.list1 li:hover{
+    color: #2089F3;
+}
+.list2 {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.list2 li {
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.travel:hover .list2 {
+    display: block;
+}
+.list2 li:hover{
+    color: #2089F3;
+}
+.fa-chevron-down{ 
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.travel:hover .fa-chevron-down{
+    transform: rotate(-180deg);
+}
+
+/* header=============================*/
+
+.header {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.des-header {
+    width: 45%;
+    margin: auto;
+}
+.des-header h1 {
+    font-weight: 800;
+    font-size: 6rem;
+    width: 50%;
+    color: #333;
+}
+.gambar {
+    width: 45%;
+    height: 100vh;
+}
+.gambar img {
+    width: 100%;
+    height: 100%;
+}
+
+/*card============================*/
+.bg-card {
+    width: 90%;
+    padding-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.bg-card h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    font-size: 4rem;
+}
+.card {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.card:hover {
+    box-shadow: 0px 0px 10px #333;
+}
+.gambar1 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    transition: 500ms;
+}
+
+.gambar1 img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+.des-card {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.des-card h2 {
+    color: #2089F3;
+    margin-bottom: 5px;
+}
+.des-card p {
+    line-height: 15px;
+    color: #333;
+}
+.bg-card a {
+    text-decoration: none;
+}
+
+.card:hover img{
+    transform: scale(1.5);
+    transition: 500ms;
+}
+
+/*card2============================*/
+
+
+.card-travel{
+    width: 90%;
+    padding-bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.card-travel h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    font-size: 4rem;
+}
+.cardtravel {
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.gambar2 {
+    width: 200px;
+    height: 200px;
+    transition: 300ms; 
+}
+.gambar2 img {
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    border-radius: 100%;
+}
+.des-card2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+.des-card2 h2 {
+    color: #2089F3;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.des-card2 p {
+    line-height: 15px;
+    color: #333;
+    text-align: center;
+}
+.card-travel a {
+    text-decoration: none;
+}
+
+.cardtravel:hover img{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+/*card3================================*/
+.paket-wisata {
+    text-align: center;
+}
+.paket-wisata h2 {
+    font-size: 24px;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    font-size: 4rem;
+
+}
+.paket-wisata-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+.paket-wisata-item {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 5);
+    margin-bottom: 1rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1rem;
+    border-radius: 2px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.paket-wisata-item:hover {
+    transform: scale(1.1);
+}
+.paket-wisata-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.paket-wisata-item h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+.paket-wisata-item p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+.paket-wisata-item button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.paket-wisata-item button:hover {
+    background-color: #555;
+    color: white;
+}
+/*bg footer============================*/
+
+.footer-info {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    transition: 5s;
+    color: white;
+}
+ul,li {
+    list-style-type: none;
+}
+.footer-info.footer-width {
+    padding: 0 15px;
+    margin-left: 20px;
+}
+.footer-info h5 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.footer-info p{
+    padding-bottom: 20px;
+}
+.about, .contact {
+    width: 40%;
+    padding-left: 50px;
+}
+.link {
+    width: 20%;
+    padding-left: 50px;
+}
+.social-media ul{
+    display: flex;
+}
+.social-media ul li a {
+    display: inline-block;
+    margin-right: 50px;
+    width: 50px;
+    height: 35px;
+    padding-top: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+}
+.link ul li a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.contact ul li {
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact ul li span {
+    margin-right: 15px;
+}
