@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+link {
+    display: none;
+}
+.nav {
+    color: whitesmoke;
+    background-color: #333;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.nav a {
+    color: whitesmoke;
+}
+.nav li {
+    padding: 5px;
+}
+.nav a:hover {
+    color: #2089F3;
+}
+.data-list{
+    margin-left: 40%;
+}
+.data-list li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.fa-chevron-down{ 
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.destinasi:hover .fa-chevron-down{
+    transform: rotate(-180deg);
+}
+.list1 {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.list1 li {
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.data-list a{
+    text-decoration: none;
+    text-align: center;
+}
+.destinasi:hover .list1 {
+    display: block;
+}
+.list1 li:hover{
+    color: #2089F3;
+}
+.list2 {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.list2 li {
+    display: block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+.travel:hover .list2 {
+    display: block;
+}
+.list2 li:hover{
+    color: #2089F3;
+}
+.fa-chevron-down{ 
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.travel:hover .fa-chevron-down{
+    transform: rotate(-180deg);
+}
+/* header=============================*/
+
+.header {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.des-header {
+    width: 45%;
+    margin: auto;
+}
+.des-header h1 {
+    font-weight: 800;
+    font-size: 6rem;
+    width: 50%;
+    color: #2089F3;
+}
+.gambar {
+    width: 45%;
+    height: 100vh;
+}
+.gambar img {
+    width: 100%;
+    height: 100%;
+}
+
+/*container============================*/
+
+.container {
+    width: 75%;
+    margin: auto;
+}
+
+
+/*container============================*/
+.content h2 {
+    color: #2089F3;
+    margin-bottom: 10px;
+}
+
+.content p {
+    color: #555;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+.content img {
+    margin-bottom: 30px;
+    width: 15cm;
+
+}
+/*bg footer============================*/
+
+.footer-info {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #333;
+    color: white;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    transition: 5s;
+    color: white;
+}
+ul,li {
+    list-style-type: none;
+}
+.footer-info.footer-width {
+    padding: 0 15px;
+    margin-left: 20px;
+}
+.footer-info h5 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.footer-info p{
+    padding-bottom: 20px;
+}
+.about, .contact {
+    width: 40%;
+    padding-left: 50px;
+}
+.link {
+    width: 20%;
+    padding-left: 50px;
+}
+.social-media ul{
+    display: flex;
+}
+.social-media ul li a {
+    display: inline-block;
+    margin-right: 50px;
+    width: 50px;
+    height: 35px;
+    padding-top: 12px;
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+}
+.link ul li a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.contact ul li {
+    align-items: center;
+    margin-bottom: 15px;
+}
+.contact ul li span {
+    margin-right: 15px;
+}
